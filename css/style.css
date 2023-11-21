@@ -5,7 +5,6 @@ body{/*gritty*/
         "ads"     
         "content"      
         "footer";
-    justify-content: center; /* Add this line */
 }
 header{
     grid-area: topbar;
@@ -43,6 +42,10 @@ li a{
     text-decoration-color: #e6bd43;
     font-weight: bold;
 }
+#contact{
+    background-color: #e6bd43;
+    font-weight: bold;
+}
 li{
     display: flex;
 }
@@ -55,4 +58,7 @@ li{
 }
 #showcase{
     grid-area: ads;
+}
+@media screen and (min-width: 600px){
+    
 }
