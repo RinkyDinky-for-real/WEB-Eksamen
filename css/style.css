@@ -130,12 +130,21 @@ section.ourServices{
     padding: 1rem;
     text-align: center;
 }
+section.brandingList{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
 section.branding{
     align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
+    padding-top: 2rem;
     text-align: center;
 }
 
@@ -179,5 +188,13 @@ section.branding p{
         width: 100%;
         height: auto;
         align-self: center;
+    }
+    section.brandingList{
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 1rem;
+        text-align: center;
     }
 }
