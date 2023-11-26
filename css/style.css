@@ -157,6 +157,33 @@ section.branding p{
     padding: 0.2rem;
     margin: 0;
 }
+section.newsletter{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    background-color: #ECECEC;
+}
+input[type=email], input[type=submit] {
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: content-box;
+    height: 100%;
+    font-weight: bold;
+}
+input[type=submit] {
+    background-color: #e6bd43;
+    border: none;
+}
+input[type=submit]:hover{
+    background-color: #252525;
+    color: #e6bd43;
+}
+
 @media screen and (min-width: 600px){
     body{
         display: grid;
