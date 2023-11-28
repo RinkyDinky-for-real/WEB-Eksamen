@@ -326,8 +326,8 @@ section.flex-container article { /*Copilot hjalp meg her*/
     transition: transform 1s ease;
 }
 
-section.flex-container article:hover {
-    transform: scale(1.1);
+section.flex-container article:hover {/*copilot hjalp meg her og*/
+    transform: scale(1.05);
 }
 
 section.flex-container article img{
