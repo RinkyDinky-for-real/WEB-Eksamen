@@ -5,25 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/5df494abc8.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="navbar">
         <div class="logo">
-            <a href="#"><img src="img/logo1.png" alt="logo"></a>
+            <a href="index.html"><img src="img/logo1.png" alt="logo"></a>
         </div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a id="current" href="#">Portfolio</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a class="knapp" id="contact" href="#">Contact</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a id="current" href="#">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="knapp" id="contact" href="#">Contact</a></li>
+            </ul>
+        </nav>
     </section>
-    <header>
-        <div class="container">
-            <h1>Compelling headline</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-            <li><a class="knapp" id="readmore" href="#">Read more about our services</a></li>
-        </div>
-    </header>
+    <main>
+        <header>
+            <h1>Portfolio</h1>
+        </header>
+        <section class="explorePrevious">
+            <section class="yellowLine">
+                <h1>Explore previous jobs</h1>
+                <hr size="5" color="#e6bd43"> <!--gule linjen, fikk hjelp av copilot her-->
+            </section>
+            <section class="exploreButtons">
+                <a class="knapp" href="products.html#brandingJobs">Branding</a>
+                <a class="knapp" href="products.html#designJobs">Design</a>
+                <a class="knapp" href="products.html#developmentJobs">Development</a>
+            </section>
+        </section>
+        <section class="jobs" id="brandingJobs">
+            <section class="yellowLine">
+                <h1>Branding</h1>
+                <hr size="5" color="#e6bd43"> <!--gule linjen, fikk hjelp av copilot her-->
+            </section>
+            <section class="flex-container">
+                <article>
+                    <img src="img/placeholder-400x400.png" alt="bilde">
+                    <p>Et harum quidem</p>
+                </article>
+                <article>
+                    <img src="img/placeholder-400x400.png" alt="bilde">
+                    <p>Et harum quidem</p>
+                </article>
+                <article>
+                    <img src="img/placeholder-400x400.png" alt="bilde">
+                    <p>Et harum quidem</p>
+                </article>
+                <article>
+                    <img src="img/placeholder-400x400.png" alt="bilde">
+                    <p>Et harum quidem</p>
+                </article>
+            </section>
+        </section>
+        <section class="jobs" id="designJobs">
+            <section class="yellowLine">
+                <h1>Design</h1>
+                <hr size="5" color="#e6bd43"> <!--gule linjen, fikk hjelp av copilot her-->
+            </section>
+            <section class="flex-container">
+                <article>
+                    <img src="img/placeholder-400x400.png" alt="bilde">
+                    <p>Et harum quidem</p>
+                </article>
+                <article>
+                    <img src="img/placeholder-400x400.png" alt="bilde">
+                    <p>Et harum quidem</p>
+                </article>
+                <article>
+                    <img src="img/placeholder-400x400.png" alt="bilde">
+                    <p>Et harum quidem</p>
+                </article>
+            </section>
+        </section>
+        <section class="jobs" id="developmentJobs">
+            <section class="yellowLine">
+                <h1>Development</h1>
+                <hr size="5" color="#e6bd43"> <!--gule linjen, fikk hjelp av copilot her-->
+            </section>
+            <section class="flex-container">
+                <article>
+                    <img src="img/placeholder-400x400.png" alt="bilde">
+                    <p>Et harum quidem</p>
+                </article>
+                <article>
+                    <img src="img/placeholder-400x400.png" alt="bilde">
+                    <p>Et harum quidem</p>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <br><!--slik at det ser litt bedre ut-->
+        <img src="img/logo1.png" alt="logo">
+        <p>Companyrights Companyname 2023</p>
+        <ul>
+            <li><a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+        </ul>
+    </footer>
 </body>
 </html>

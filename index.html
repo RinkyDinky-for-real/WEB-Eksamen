@@ -12,19 +12,21 @@
         <div class="logo">
             <a href="#"><img src="img/logo1.png" alt="logo"></a>
         </div>
-        <ul>
-            <li><a id="current" href="#">Home</a></li>
-            <li><a href="products.html">Portfolio</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a class="knapp" id="contact" href="#">Contact</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a id="current" href="#">Home</a></li>
+                <li><a href="products.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="knapp" id="contact" href="#">Contact</a></li>
+            </ul>
+        </nav>
     </section>
-    <section id="main">
-        <section class="heading">
+    <main>
+        <header>
             <h1>Compelling headline</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <li><a class="knapp" id="readmore" href="#">Read more about our services</a></li>
-        </section>
+            <a class="knapp" id="readmore" href="index.html#ourServiceID">Read more about our services</a>
+        </header>
         <section class="subheading">
             <h2>Engaging subheading. What can you help your visitors with</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
@@ -35,11 +37,11 @@
             </section>
             <section class="aboutOurText">
                 <h3>About Our Company</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam etiam erat velit scelerisque. Semper viverra nam libero justo. Orci porta non pulvinar neque laoreet. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Et magnis dis parturient montes nascetur ridiculus mus mauris vitae. Nam at lectus urna duis. Nam at lectus urna duis. Donec adipiscing tristique risus nec feugiat in fermentum. Arcu odio ut sem nulla pharetra diam. Eget mauris pharetra et ultrices neque ornare aenean. Mattis enim ut tellus elementum sagittis vitae et. Urna et pharetra pharetra massa massa ultricies mi quis.</p>
-                <a class="knapp" id="readmore1" href="#">Read more about us</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam etiam erat velit scelerisque. Semper viverra nam libero justo. Orci porta non pulvinar neque laoreet. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Et magnis dis parturient montes nascetur ridiculus mus mauris vitae. Nam at lectus urna duis. Nam at lectus urna duis. Donec adipiscing tristique risus nec feugiat in fermentum. Arcu odio ut sem nulla pharetra diam.</p>
+                <a class="knapp" id="readmore1" href="about.html">Read more about us</a>
             </section>
         </section>
-        <section class="ourServices">
+        <section class="ourServices" id="ourServiceID">
             <h3>Our Services</h3>
             <section class="brandingList">
                 <section class="branding">
@@ -64,12 +66,22 @@
                 </section>
             </section>
         </section>
-        <section class="newsletter">
+        <section class="newsletter" id="newsletterID">
             <h3>Sign up for our newsletter</h3>
-            <form action="index.html">                
+            <form action="index.html#newsletterID"><!--slik at man ikke blir sendt helt opp igjen-->
                 <input type="email" placeholder="nora@epost.no">
                 <input type="submit" value="Sign me up!">
         </section>
-    </section>
+    </main>
+    <footer>
+        <br><!--slik at det ser litt bedre ut-->
+        <img src="img/logo1.png" alt="logo">
+        <p>Companyrights Companyname 2023</p>
+        <ul>
+            <li><a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
