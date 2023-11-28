@@ -1,8 +1,9 @@
-jeg gikk for C/B-kravene
+jeg gikk hovedsakelig for C-kravene, og strakk meg for B krav der jeg rakk
 
 400x400 placeholder bildet fikk jeg fra https://www.manncat.com/wp-content/uploads/2017/05/placeholder-400x400.png
 
 i "newsletter" seksjonen antok jeg at fargen skulle være lik som på videoen, så jeg brukte samme gråfarge som i video-demoen, som jeg fikk via https://get-color.com/image/
+
 
 på C-kravet om "maks bredde på siden skal være 1600px" antok jeg at siden skulle være i senteret av nettleseren
 
