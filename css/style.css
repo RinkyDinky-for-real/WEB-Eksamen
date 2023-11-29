@@ -284,6 +284,11 @@ footer li a{
 section.yellowLine h1{
     margin-bottom: 0rem;
 }
+hr{
+    height: 5px;
+    background-color: #e6bd43;
+    border-width: 0;
+}
 section.exploreButtons{
     display: flex;
     flex-direction: row;
@@ -397,6 +402,95 @@ section.flex-container2 article img{
     height: auto;
     align-self: center;
 }
+section.contactUs1{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    background-color: #ECECEC;
+}
+section.contactUs{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    background-color: #ECECEC;
+}
+section.contactUsForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    text-align: left;
+    background-color: #ECECEC;
+    align-self: flex-start;
+    width: 100%;
+}
+section.contactUsInfo{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    text-align: left;
+    align-self: flex-start;
+}
+
+section.contactUs p.bigP{
+    text-align: left;
+    font-size: x-large;
+    color: #000;
+    align-self: flex-start;
+}
+section.contactUsInfo i{
+    padding-right: 1rem;
+}
+section.contactUs input[type=text], section.contactUs input[type=submit] {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: content-box;
+    height: 2rem;
+    font-weight: bold;
+}
+section.contactUs textarea{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: content-box;
+    height: 10rem;
+    font-weight: bold;
+}
+section.contactUs input[type=submit] {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6bd43;
+    border: none;
+    width: fit-content;
+    padding-inline: 3rem;
+}
+section.contactUs input[type=submit]:hover{
+    background-color: #252525;
+    color: #e6bd43;
+}
+section.googleMaps{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+iframe.maps{
+    height: 300px;
+    border: 0;
+}
 /*********************************/
 /*media queries*/
 /*********************************/
@@ -456,6 +550,24 @@ section.flex-container2 article img{
         width: 80%;
         align-self: flex-start;
         margin: 1rem
+    }
+    section.contactUs{
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 1rem;
+        text-align: left;
+        background-color: #ECECEC;
+        width: 100%;
+    }
+    section.contactUsInfo{
+        width: 50%;
+        padding-right: 2rem;
+    }
+    section.contactUsForm{
+        width: 50%;
+        padding-left: 2rem;
     }
 }
 @media screen and (min-width: 880px){/*slik at når det bare er ett artikkel-kort per rad, vil de være sentrert*/
