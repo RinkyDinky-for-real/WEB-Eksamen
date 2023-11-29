@@ -519,7 +519,7 @@ iframe.maps{
     section.aboutOurImg img{
         width: 100%;
         height: auto;
-        align-self: left;
+        align-self: flex-start;
     }
     section.brandingList{
         align-self: center;
