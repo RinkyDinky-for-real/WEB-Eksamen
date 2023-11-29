@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*importerer google font*/
 html {
-    max-width: 1600px;
+    max-width: 1600px;/*maks størrelse*/
     margin: 0 auto;
 }
 body{/*gritty*/
